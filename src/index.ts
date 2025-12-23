@@ -20,8 +20,7 @@ const client = new Client({
 });
 
 // Add your member roles to this array
-export const memberRoles = JSON.parse(process.env.ROLE_IDS) as string[];
-console.log("DEBUG OUTPUT:", process.env.ROLE_IDS);
+export const memberRoles = ["1182424999206866964"];
 //debug
 // Add your flagged alt account roles to this array. Comment this line out if you're not using it. Make sure to also comment out the grantRole function that grants this role.
 const altRole = process.env.ALT_ROLE_ID;
